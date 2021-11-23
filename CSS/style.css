@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+nav {
+    display:flex;
+    justify-content:flex-end;
+}
+.navItem {
+    color: black;
+    padding: 1%;
+    text-decoration: none;
+}
+section {
+    display:flex;
+    justify-content: space-around;
+}
+.Postit {
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    background-color: none;
+    border-style: none;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2% 2% 2% 2% ;
+}
+h5 {
+    margin: 0;
+}
+
